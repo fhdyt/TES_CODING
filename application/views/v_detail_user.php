@@ -83,7 +83,7 @@
                         </tr>
                         <tr>
                             <td colspan="3">
-                                <table class="table">
+                                <table class="table table-bordered">
                                     <thead>
                                         <th>Pendidikan Terakhir</th>
                                         <th>Nama Instansi Akademik</th>
@@ -105,12 +105,11 @@
                         </tr>
                         <tr>
                             <td colspan="3">
-                                <table class="table">
+                                <table class="table table-bordered">
                                     <thead>
                                         <th>Nama Kursus</th>
                                         <th>Sertifikat</th>
                                         <th>Tahun</th>
-                                        <th></th>
                                     </thead>
                                     <tbody>
                                         <?php foreach ($pelatihan as $row) { ?>
@@ -124,7 +123,7 @@
                         </tr>
                         <tr>
                             <td colspan="3">
-                                <table class="table">
+                                <table class="table table-bordered">
                                     <thead>
                                         <th>Nama Perusahaan</th>
                                         <th>Posisi Terakhir</th>
