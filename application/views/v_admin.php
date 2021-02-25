@@ -60,7 +60,7 @@
                             "<td>" + data[i].BIODATA_NAMA + "</td>" +
                             "<td>" + data[i].BIODATA_TEMPAT_LAHIR + ", " + data[i].BIODATA_TANGGAL_LAHIR + "</td>" +
                             "<td>" + data[i].BIODATA_POSISI + "</td>" +
-                            "<td><a target='_blank'class='btn btn-primary btn-sm mb-2' href='<?php echo base_url(); ?>admin/detail_user'>Detail</a></td>" +
+                            "<td><a target='_blank'class='btn btn-primary btn-sm mb-2' href='<?php echo base_url(); ?>admin/detail_user/" + data[i].USER_ID + "'>Detail</a></td>" +
                             "</tr>");
                     }
                 }

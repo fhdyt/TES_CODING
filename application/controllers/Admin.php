@@ -35,6 +35,17 @@ class Admin extends CI_Controller
 		$this->load->view('template/footer');
 	}
 
+	public function detail_user()
+	{
+		$data['data'] = $this->M_Admin->detail_user();
+		$data['pendidikan'] = $this->M_Admin->pendidikan_user();
+		$data['pelatihan'] = $this->M_Admin->pelatihan_user();
+		$data['pekerjaan'] = $this->M_Admin->pekerjaan_user();
+		$this->load->view('template/header');
+		$this->load->view('v_detail_user', $data);
+		$this->load->view('template/footer');
+	}
+
 
 	public function user_list()
 	{
